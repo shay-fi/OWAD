@@ -318,7 +318,9 @@ class ShiftHunter:
             'remain_X_con': remain_X_con,
         }
         
-        return self.EXPLAIN_RES
+        discrete_M_t, discrete_M_t = discretize_mask(self.M_t, self.M_t, thres=discrete_thres)
+        return discrete_M_t   # we are only interested in those new treatment samples that demonstrate deviation from the control(training), i.e. candidate drift samples
+        #return self.EXPLAIN_RES
 
     def adapter(self, model, **kvargs):
         print('Adapter: Begin Processing ... ') 
