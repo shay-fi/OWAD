@@ -11,7 +11,7 @@ CONFIG_FILE = os.path.join(PROJECT_FILE, 'configs.yml')
 
 def get_params(param_type):
     f = open(CONFIG_FILE)
-    params = yaml.load(f)
+    params = yaml.load(f, Loader = yaml.SafeLoader)
     return params[param_type]
 
 
