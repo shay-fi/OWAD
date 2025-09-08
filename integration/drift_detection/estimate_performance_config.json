@@ -1,0 +1,232 @@
+{
+    "path2LeafIPFIXDirs": [
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/2020",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/2021",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/2022",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/2023"
+    ],
+
+    "path2LeafTimestampDirs": [
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/flowEndTimestamps/2020",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/flowEndTimestamps/2021",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/flowEndTimestamps/2022",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/flowEndTimestamps/2023"
+    ],
+
+    "path2LeafLineIndexDirs": [
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/lineIndex/2020",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/lineIndex/2021",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/lineIndex/2022",
+        "/mnt/nas0/g001/serviceLevelFingerprints/LAB_noLocal_noIPv6/LAB_noLocal_noIPv6_noRedundancy/TCP443/lineIndex/2023"
+    ],
+    
+    "#classes": [
+        "ipfix_kddi-iot-whole_amazon-amazon-echo-show5-gen1-ap140-1.json",
+        "ipfix_kddi-iot-whole_amazon-amazon-echo-gen2-ap140-1.json",
+        "ipfix_kddi-iot-whole_amazon-amazon-echo-dot-with-clock-gen3-ap140-1.json",
+        "ipfix_kddi-iot-whole_amazon-fire-tv-stick-4k-ap140-1.json",
+
+        "ipfix_kddi-iot-whole_apple-apple-homepod-ap140-1.json",
+
+        "ipfix_kddi-iot-whole_bitfinder-awair-breathe-easy-ap140-1.json",
+        
+        "ipfix_kddi-iot-whole_google-google-home-gen1-ap140-1.json",
+        "ipfix_kddi-iot-whole_google-nest-mini-gen2-ap140-1.json",
+        "ipfix_kddi-iot-whole_google-chromecast-ap140-1.json",
+        
+        "ipfix_kddi-iot-whole_i-odata-qwatch-ap140-1.json",
+        
+        "ipfix_kddi-iot-whole_jvckenwood-cu-hb1-ap140-1.json",
+        
+        "ipfix_kddi-iot-whole_line-clova-wave-ap140-1.json",
+
+        "ipfix_kddi-iot-whole_nature-nature-remo-ap140-1.json",
+
+        "ipfix_kddi-iot-whole_withings-nokia-body-ap140-1.json",
+        
+        "ipfix_kddi-iot-whole_panasonic-doorphone-ap140-1.json",
+
+        "ipfix_kddi-iot-whole_qrio-qrio-hub-ap140-1.json",
+        
+        "ipfix_kddi-iot-whole_sony-sony-smart-speaker-ap140-1.json",
+        
+        "ipfix_kddi-iot-whole_tp-link-kasa-smart-led-bulb-ap140-1.json",
+        "ipfix_kddi-iot-whole_tp-link-kasa-smart-plug-hs105-ap140-1.json",
+
+        "ipfix_kddi-iot-whole_wansview-wansview-q5-ap140-1.json"  
+    ],
+    
+    "classes": [
+        "amazon-amazon-echo-dot-with-clock-gen3.json",
+        "amazon-fire-tv-stick-4k.json",
+        "tp-link-kasa-pro.json",
+        "google-chromecast.json",
+        "google-nest-mini-gen2.json",
+        "meross-smart-wifi-surge-protector.json",
+        "irobot-japan-roomba.json",
+        "canon-inkjet-printer.json",
+        "tp-link-kasa-smart-led-bulb.json",
+        "withings-sleep.json",
+        "panasonic-home-unit.json"
+    ],    
+
+    "features": [
+        "packetTotalCount",
+        "reversePacketTotalCount",
+        "octetTotalCount",
+        "reverseOctetTotalCount",
+        "smallPacketCount",
+        "reverseSmallPacketCount",
+        "largePacketCount",
+        "reverseLargePacketCount",
+        "nonEmptyPacketCount",
+        "reverseNonEmptyPacketCount",
+        "dataByteCount",
+        "reverseDataByteCount",
+        "averageInterarrivalTime",
+        "reverseAverageInterarrivalTime",
+        "firstNonEmptyPacketSize",
+        "reverseFirstNonEmptyPacketSize",
+        "maxPacketSize",
+        "reverseMaxPacketSize",
+        "standardDeviationPayloadLength",
+        "reverseStandardDeviationPayloadLength",
+        "standardDeviationInterarrivalTime",
+        "reverseStandardDeviationInterarrivalTime"        
+    ],
+    
+    "fitting_evalWindows_count": 8,
+    "fitting_evalWindows_shift": 604800,
+    "fitting_evalWindows_length": 604800,
+
+    "unseen_evalWindows_count": 8,
+    "unseen_evalWindows_shift": 604800,
+    "unseen_evalWindows_length": 604800,
+    
+    "path_to_models_material_parent": "../classification/models_test/",
+    "save_path_parent": "./precision_estimations/",
+
+    "epsilon": 0.001,
+    
+    "read_unseen_from_IPFIX_records": false,
+    "operate_only_on_unseen_period": true,
+    
+    "metrics": [
+        "per-class precision",
+        "macro precision"
+    ],
+
+    "save_explanations": true,
+    "append_labels_to_explanations": true,
+
+    "#plot": {
+        "group1": {
+            "metrics": ["macro precision"],
+            "y_lim": [0.5, 1],
+            "seen_period_shades": {
+                "color": "grey",
+                "alpha": 0.3
+            },
+            "unseen_period_shades": {
+                "color": "white",
+                "alpha": 1
+            },
+            "x_label": "Time",
+            "y_label": "Performance metrics",
+            "x_label_font": {
+                "fontsize": 22,
+                "fontweight": "bold"
+            },
+            "y_label_font": {
+                "fontsize": 22,
+                "fontweight": "bold"
+            },
+            "xtick_step": 4838400,
+            "ytick_step": 0.05, 
+            "xtick_label_font": {
+                "fontsize": 20,
+                "fontweight": "bold"
+            },
+            "ytick_label_font": {
+                "fontsize": 20,
+                "fontweight": "bold"
+            },
+            "plot_stroke": [
+                {
+                    "label": "macro F1-score", 
+                    "linestyle": "--", 
+                    "linewidth": 2, 
+                    "marker": "D", 
+                    "markerfacecolor": "blue", 
+                    "markeredgecolor": "blue",
+                    "markersize": 5,
+                    "markeredgewidth": 1,
+                    "color": "blue"
+                }
+            ],
+            "legend": {
+                "loc": "lower right",
+                "framealpha": 0.55,
+                "fontsize": 22
+            }
+        },
+        
+        "#group2": {
+            "metrics": ["per-class precision"],
+            "info": {
+                "classes": [
+                     "ipfix_kddi-iot-whole_google-nest-mini-gen2-ap140-1.json"       
+                ]
+            },
+            "y_lim": [0.5, 1],
+            "seen_period_shades": {
+                "color": "grey",
+                "alpha": 0.3
+            },
+            "unseen_period_shades": {
+                "color": "white",
+                "alpha": 1
+            },
+            "x_label": "Time",
+            "y_label": "Performance metrics",
+            "x_label_font": {
+                "fontsize": 22,
+                "fontweight": "bold"
+            },
+            "y_label_font": {
+                "fontsize": 22,
+                "fontweight": "bold"
+            },
+            "xtick_step": 4838400,
+            "ytick_step": 0.05, 
+            "xtick_label_font": {
+                "fontsize": 20,
+                "fontweight": "bold"
+            },
+            "ytick_label_font": {
+                "fontsize": 20,
+                "fontweight": "bold"
+            },
+            "plot_stroke": [
+                {
+                    "label": "macro F1-score", 
+                    "linestyle": "--", 
+                    "linewidth": 2, 
+                    "marker": "D", 
+                    "markerfacecolor": "blue", 
+                    "markeredgecolor": "blue",
+                    "markersize": 5,
+                    "markeredgewidth": 1,
+                    "color": "blue"
+                }
+            ],
+            "legend": {
+                "loc": "lower right",
+                "framealpha": 0.55,
+                "fontsize": 22
+            }
+        }        
+    },
+    
+    "log_path": "./logs/estimate_precision.log"
+}

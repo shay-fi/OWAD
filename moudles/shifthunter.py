@@ -309,6 +309,7 @@ class ShiftHunter:
         self.M_c = M_c
         self.M_t = M_t
 
+        '''
         self.remain_X, remain_X_con, remain_X_tre = self.get_remain_X(self.calibrator.X_con, X_tre, y_tre, thres = discrete_thres, label_num = label_num)
         delete_X_con = self.get_del_Xc(self.calibrator.X_con)
         
@@ -318,9 +319,11 @@ class ShiftHunter:
             'remain_X_con': remain_X_con,
         }
         
+        return self.EXPLAIN_RES
+        ''' 
+        
         discrete_M_t, discrete_M_t = discretize_mask(self.M_t, self.M_t, thres=discrete_thres)
-        return discrete_M_t   # we are only interested in those new treatment samples that demonstrate deviation from the control(training), i.e. candidate drift samples
-        #return self.EXPLAIN_RES
+        return np.array([bool(element) for element in discrete_M_t])  # we are only interested in those new treatment samples that demonstrate deviation from the control(training), i.e. candidate drift samples
 
     def adapter(self, model, **kvargs):
         print('Adapter: Begin Processing ... ') 
